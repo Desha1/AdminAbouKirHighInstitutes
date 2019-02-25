@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_blue"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".NewStudentToFirebase">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/sit_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sit_num"
+            android:background="@drawable/top_section"
+            android:hint="@string/sit_num"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/student_name"
+            android:background="@drawable/top_section"
+            android:hint="@string/student_name"
+            android:inputType="textAutoComplete"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sub1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub1"
+            android:background="@drawable/top_section"
+            android:hint="@string/sub1"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sub2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub2"
+            android:background="@drawable/top_section"
+            android:hint="@string/sub2"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sub3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub3"
+            android:background="@drawable/top_section"
+            android:hint="@string/sub3"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sub4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub4"
+            android:background="@drawable/top_section"
+            android:hint="@string/sub4"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sub5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub5"
+            android:background="@drawable/top_section"
+            android:hint="@string/sub5"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sub6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub6"
+            android:background="@drawable/top_section"
+            android:hint="@string/sub6"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sub7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub7"
+            android:background="@drawable/top_section"
+            android:focusable="false"
+            android:hint="@string/sub7"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/upload"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

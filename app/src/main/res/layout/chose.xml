@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chose"
+    android:background="@color/background_blue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <Button
+        android:id="@+id/put_new_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_student"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/show_all_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_all_student"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>
