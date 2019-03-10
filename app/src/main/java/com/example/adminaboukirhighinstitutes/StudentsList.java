@@ -39,6 +39,7 @@ public class StudentsList extends AppCompatActivity implements ValueEventListene
 
         defineAllElements();
 
+
         checkIntent();
 
         //On Row item click
