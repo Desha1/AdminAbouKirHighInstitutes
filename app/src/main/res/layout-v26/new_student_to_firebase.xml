@@ -14,6 +14,54 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+        <Switch
+            android:id="@+id/switch_division"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/division"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:padding="20dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="17dp">
+            <RadioButton
+                android:id="@+id/tourism"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tourism"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:buttonTint="@color/white"
+                android:checked="true"
+                android:paddingEnd="10dp"/>
+
+            <RadioButton
+                android:id="@+id/hotels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotels"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:buttonTint="@color/white"
+                android:paddingEnd="10dp"/>
+
+            <RadioButton
+                android:id="@+id/tourism_guiding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tourism_guiding"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:buttonTint="@color/white" />
+        </RadioGroup>
+
         <EditText
             android:id="@+id/sit_num"
             android:layout_width="match_parent"
@@ -26,7 +74,9 @@
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:maxLength="8"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/name"
@@ -40,7 +90,8 @@
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/sub1"
@@ -54,7 +105,9 @@
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/sub2"
@@ -68,7 +121,9 @@
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/sub3"
@@ -82,7 +137,9 @@
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/sub4"
@@ -96,7 +153,9 @@
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/sub5"
@@ -110,7 +169,9 @@
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/sub6"
@@ -121,11 +182,12 @@
             android:background="@drawable/top_section"
             android:hint="@string/sub6"
             android:inputType="number"
-            android:maxLength="2"
+            android:maxLength="3"
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/sub7"
@@ -134,14 +196,30 @@
             android:layout_marginBottom="20dp"
             android:autofillHints="@string/sub7"
             android:background="@drawable/top_section"
-            android:focusable="false"
             android:hint="@string/sub7"
             android:inputType="number"
-            android:maxLength="2"
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="@color/off_white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/sub8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="@string/sub8"
+            android:background="@drawable/top_section"
+            android:hint="@string/sub8"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/off_white"
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center"/>
 
         <Button
             android:id="@+id/upload"

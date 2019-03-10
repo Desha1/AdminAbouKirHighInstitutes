@@ -19,8 +19,7 @@ public class Student implements Serializable {
     private String totalGrade;
     private int percentage;
 
-    public Student() {
-    }
+    public Student() { }
 
     Student(String name, int sitNum, int sub1, int sub2, int sub3, int sub4, int sub5, int sub6, int sub7, int sub8) {
         this.name = name;
@@ -245,144 +244,112 @@ public class Student implements Serializable {
         return name;
     }
 
-    public int getSitNum() {
+     int getSitNum() {
         return sitNum;
     }
 
-    public int getTotalSum() {
+     int getTotalSum() {
         return totalSum;
     }
 
-    public int getSub1() {
-        return sub1;
-    }
-
-    public int getSub2() {
-        return sub2;
-    }
-
-    public int getSub3() {
-        return sub3;
-    }
-
-    public int getSub4() {
-        return sub4;
-    }
-
-    public int getSub5() {
-        return sub5;
-    }
-
-    public int getSub6() {
-        return sub6;
-    }
-
-    public int getSub7() {
-        return sub7;
-    }
-
-    public int getSub8() {
-        return sub8;
-    }
-
-    public void setSubName1(String subName1) {
+     void setSubName1(String subName1) {
         this.subName1 = subName1;
     }
 
-    public void setSubName2(String subName2) {
+     void setSubName2(String subName2) {
         this.subName2 = subName2;
     }
 
-    public void setSubName3(String subName3) {
+     void setSubName3(String subName3) {
         this.subName3 = subName3;
     }
 
-    public void setSubName4(String subName4) {
+     void setSubName4(String subName4) {
         this.subName4 = subName4;
     }
 
-    public void setSubName5(String subName5) {
+     void setSubName5(String subName5) {
         this.subName5 = subName5;
     }
 
-    public void setSubName6(String subName6) {
+     void setSubName6(String subName6) {
         this.subName6 = subName6;
     }
 
-    public void setSubName7(String subName7) {
+     void setSubName7(String subName7) {
         this.subName7 = subName7;
     }
 
 
-    public String getSubName1() {
+     String getSubName1() {
         return subName1;
     }
 
-    public String getSubName2() {
+     String getSubName2() {
         return subName2;
     }
 
-    public String getSubName3() {
+     String getSubName3() {
         return subName3;
     }
 
-    public String getSubName4() {
+     String getSubName4() {
         return subName4;
     }
 
-    public String getSubName5() {
+     String getSubName5() {
         return subName5;
     }
 
-    public String getSubName6() {
+     String getSubName6() {
         return subName6;
     }
 
-    public String getSubName7() {
+     String getSubName7() {
         return subName7;
     }
 
-    public String getSubName8() {
+     String getSubName8() {
         return subName8;
     }
 
-    public String getSubGrade1() {
+     String getSubGrade1() {
         return subGrade1;
     }
 
-    public String getSubGrade2() {
+     String getSubGrade2() {
         return subGrade2;
     }
 
-    public String getSubGrade3() {
+     String getSubGrade3() {
         return subGrade3;
     }
 
-    public String getSubGrade4() {
+     String getSubGrade4() {
         return subGrade4;
     }
 
-    public String getSubGrade5() {
+     String getSubGrade5() {
         return subGrade5;
     }
 
-    public String getSubGrade6() {
+     String getSubGrade6() {
         return subGrade6;
     }
 
-    public String getSubGrade7() {
+     String getSubGrade7() {
         return subGrade7;
     }
 
-    public String getSubGrade8() {
+     String getSubGrade8() {
         return subGrade8;
     }
 
-    public String getTotalGrade() {
+     String getTotalGrade() {
         return this.totalGrade;
     }
 
-    public int getPercentage() {
+     int getPercentage() {
         return this.percentage;
     }
 }

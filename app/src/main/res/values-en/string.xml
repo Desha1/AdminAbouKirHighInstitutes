@@ -55,4 +55,8 @@
     <string name="division">Division</string>
     <string name="arabic">Arabic</string>
     <string name="english">English</string>
+    <string name="tourism">Tourism</string>
+    <string name="hotels">Hotels</string>
+    <string name="tourism_guiding">Tourism Guiding</string>
+    <string name="sub8">Sub8</string>
 </resources>

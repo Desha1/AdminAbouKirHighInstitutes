@@ -43,7 +43,7 @@
     <string name="accepted">مقبول</string>
     <string name="poor">ضعيف</string>
     <string name="v_poor">ضعيف جدا</string>
-    <string name="total_sum">المحموع الكلي</string>
+    <string name="total_sum">المجموع الكلي</string>
     <string name="percentage">النسبة المؤية</string>
     <string name="total_grade">التقدير الكلي</string>
     <string name="total_sum1">المجموع الكلي : </string>
@@ -57,4 +57,8 @@
     <string name="division">الشعبة</string>
     <string name="arabic">عربي</string>
     <string name="english">إنجليزي</string>
+    <string name="tourism">السياحة</string>
+    <string name="hotels">الفنادق</string>
+    <string name="tourism_guiding">الإرشاد السياحي</string>
+    <string name="sub8">Sub8</string>
 </resources>

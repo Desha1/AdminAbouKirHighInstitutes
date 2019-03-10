@@ -18,7 +18,7 @@ public class StudentAdapter  extends RecyclerView.Adapter<StudentViewHolder> {
     private ArrayList<Student> allStudent;
     private StudentDetails studentDetails;
 
-    public StudentAdapter(Context context, ArrayList<Student> allStudent) {
+     StudentAdapter(Context context, ArrayList<Student> allStudent) {
         this.context = context;
         this.allStudent = allStudent;
     }
